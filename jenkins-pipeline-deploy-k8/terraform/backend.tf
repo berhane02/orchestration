@@ -1,7 +1,7 @@
 terraform {
-    backend "s3" {
-        bucket = "automation-jenkis-pipeline"
-        region = "us-east-1"
-        key = "jenkis-server/terraform.tfstate"
-    }
+  backend "s3" {
+    bucket = "primuslearning-app"
+    region = "us-east-1"
+    key = "eks/terraform.tfstate"
+  }
 }
